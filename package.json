@@ -2,9 +2,9 @@
   "name": "notetakr",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon derver.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/nbrown225/noteTakr/issues"
   },
-  "homepage": "https://github.com/nbrown225/noteTakr#readme"
+  "homepage": "https://github.com/nbrown225/noteTakr#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
